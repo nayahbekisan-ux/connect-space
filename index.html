@@ -15,12 +15,14 @@
       background-color: #4caf50;
       color: white;
       display: flex;
-      justify-content: space-between;
+      justify-content: center; /* Center the title */
       align-items: center;
       padding: 1rem 2rem;
+      position: relative;
     }
     header h1 {
       margin: 0;
+      text-align: center;
     }
     .logo {
       width: 40px;
@@ -32,6 +34,8 @@
       justify-content: center;
       color: #4caf50;
       font-weight: bold;
+      position: absolute;
+      right: 20px; /* Keep logo on the right */
     }
     nav {
       background-color: #e8f5e9;
@@ -39,10 +43,17 @@
       text-align: center;
     }
     nav a {
-      margin: 0 1rem;
+      margin: 0 0.5rem;
       text-decoration: none;
-      color: #333;
+      color: white;
+      background-color: #4caf50;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
       font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    nav a:hover {
+      background-color: #388e3c; /* Darker green on hover */
     }
     section {
       padding: 2rem;
