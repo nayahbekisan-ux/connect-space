@@ -14,8 +14,24 @@
     header {
       background-color: #4caf50;
       color: white;
-      text-align: center;
-      padding: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+    header h1 {
+      margin: 0;
+    }
+    .logo {
+      width: 40px;
+      height: 40px;
+      background-color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #4caf50;
+      font-weight: bold;
     }
     nav {
       background-color: #e8f5e9;
@@ -30,7 +46,7 @@
     }
     section {
       padding: 2rem;
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
     }
     h2 {
@@ -55,42 +71,43 @@
 <body>
   <header>
     <h1>Connect Space</h1>
-    <p>A wellness website for clarity, motivation, and community.</p>
+    <div class="logo">U</div>
   </header>
 
   <nav>
-    <a href="#">Articles</a>
-    <a href="#">Forums</a>
-    <a href="#">Reminders</a>
-    <a href="#">Community</a>
+    <a href="#">Wellness Articles</a>
+    <a href="#">Community Forums</a>
+    <a href="#">Post & Comment</a>
+    <a href="#">Habit Reminders</a>
   </nav>
 
   <section>
-    <h2>Features</h2>
+    <h2>Welcome to Connect Space</h2>
+    <p>Created by <strong>OPathways</strong>, Connect Space helps individuals improve their physical and mental health through simple guidance, reliable information, and a supportive online community.</p>
 
     <div class="card">
-      <h3>Simple Wellness Articles</h3>
+      <h3>Wellness Articles</h3>
+      <p>Read simple, clear articles that provide reliable guidance for your wellness journey.</p>
     </div>
 
     <div class="card">
-      <h3>Community Support Forum
+      <h3>Community Support Forums</h3>
+      <p>Join discussions, share experiences, and connect with others in a safe space.</p>
     </div>
 
     <div class="card">
-      <h3>User Experience Sharing</h3>
+      <h3>User Posts & Comments</h3>
+      <p>Share your thoughts and comment on others’ experiences to build peer support.</p>
     </div>
 
     <div class="card">
       <h3>Daily Habit Reminders</h3>
-    </div>
-
-    <div class="card">
-      <h3>Clean and Calming UI</h3>
+      <p>Stay motivated with simple reminders to keep your wellness habits on track.</p>
     </div>
   </section>
 
   <footer>
-    <p>© 2026 Connect Space | OPathways team </p>
+    <p>© 2026 Connect Space | Built by OPathways</p>
   </footer>
 </body>
 </html>
